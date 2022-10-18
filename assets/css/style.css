@@ -137,7 +137,7 @@ h1, h2 {
 hr {
     border-top: 1px solid #3a3a3a;
     width: 100%;
-    margin: 5px;
+    margin: 5px 0;
 }
 
 .left-about-heading {
@@ -233,19 +233,19 @@ footer {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #3a3a3a
+    color: #3a3a3a;
 }
 
 /* Gallery */
 
-.photos {
+#photos {
     clear: both;
     line-height: 0;
     column-count: 4;
     column-gap: 0;
 }
 
-.photos > img {
+#photos > img {
     width: 100%;
 }
 
@@ -296,7 +296,7 @@ footer {
     #menu {
         clear: left;
         float: left;
-        margin-left:  30px;
+        margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
     }
